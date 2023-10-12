@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Định dạng menu-bar */
+.menu-bar {
+    background-color: #e11919;
+    color: white;
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    /* Canh giữa theo chiều ngang */
+
+}
+
+/* Định dạng liên kết trong menu */
+.menu-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    /* Canh giữa theo chiều ngang */
+}
+
+.menu-bar li {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+
+}
+
+.menu-bar li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+}
+
+
+.logo-company {
+    display: flex;
+    width: 30%;
+    padding-left: 0;
+    text-align: left;
+    margin: left;
+}
+
+/* Định dạng logo */
+.logo img {
+    width: 35px;
+    height: 35x;
+    margin-right: 10px;
+}
+
+/* Định dạng tên công ty */
+.company-name h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.Login {
+    margin: 0;
+    width: 20%;
+    padding: 0;
+    text-align: right;
+    justify-content: right;
+}
+
+.Signin {
+    width: 9%;
+    text-align: right;
+    justify-content: right;
+}
+
+.Func {
+    display: flex;
+    justify-content: center;
+}
