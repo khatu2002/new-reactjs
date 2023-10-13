@@ -24,7 +24,7 @@ const SliderComponent = () => {
                     <img src="true-love.jpg" alt="Image 2" />
                 </div>
                 <div>
-                    <img src="image3.jpg" alt="Image 3" />
+                    <img src="music slider.jpg" alt="Image 3" />
                 </div>
             </Slider>
         </div>
